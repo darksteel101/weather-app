@@ -1,0 +1,67 @@
+h1 {
+  color: #1368f0;
+  font-size: 34px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 28px;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+button {
+  color: #ffffff;
+  display: inline;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 10px 20px;
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.container {
+  margin: 20px;
+  padding: 30px;
+  max-width: 1000px;
+  border: solid 1px #999999;
+  border-radius: 4px;
+}
+
+.search-button {
+  background-color: #1368f0;
+  border: solid 1px #1368f0;
+}
+
+#current-button {
+  background-color: #209420;
+  border: solid 1px #209420;
+}
+
+.search-bar {
+  padding: 10px 50px;
+  border: solid 1px #999999;
+  border-radius: 4px;
+}
+
+.emoji {
+  display: block;
+  margin: 0 auto;
+  text-align: right;
+  font-size: 125px;
+  text-align: center;
+}
+
+.temperature {
+  text-align: center;
+}
+#description {
+  text-transform: capitalize;
+}
