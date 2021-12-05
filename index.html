@@ -16,43 +16,50 @@
   </head>
   <body>
     <div class="wrapper">
-    <div class="container">
-      <form class="search-form" id="search-form">
-        <input
-          type="search"
-          placeholder="Enter a city"
-          autofocus="on"
-          autocomplete="off"
-          class="search-bar"
-          id="city-input"
-        />
-        <button class="search-button btn btn-primary">Search</button>
-        <button id="current-button" class="btn btn-success">Current</button>
-      </form>
+      <div class="container">
+        <form class="search-form" id="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city"
+            autofocus="on"
+            autocomplete="off"
+            class="search-bar"
+            id="city-input"
+          />
+          <button class="search-button btn btn-primary">Search</button>
+          <button id="current-button" class="btn btn-success">Current</button>
+        </form>
 
-      <main>
-        <div class="row">
-          <div class="col">
-            <h1 id="city"></h1>
-            <h2 id="date"></h2>
-            <h3 id="description"></h3>
-            <h3> Humidity: <span id="humidity"></span>%</h3>
-            <h3>Wind: <span id="wind"></span> km/h</h3>
-          </div>
-          <div class="col temperature">
-            <h2><span class="temperature" id="temperature"></span>
+        <main>
+          <div class="row">
+            <div class="col">
+              <h1 id="city"></h1>
+              <h2 id="date"></h2>
+              <h3 id="description"></h3>
+              <h3>Humidity: <span id="humidity"></span>%</h3>
+              <h3>Wind: <span id="wind"></span> km/h</h3>
+            </div>
+            <div class="col temperature">
+              <h2>
+                <span class="temperature" id="temperature"></span>
                 <span class="units">
                   <a href="#" id="celsius-link">°C</a> |
-                  <a href="#" id="fahrenheit-link">°F</a></h2>
+                  <a href="#" id="fahrenheit-link">°F</a>
+                </span>
+              </h2>
+            </div>
+            <div class="col">
+              <img src="" alt="weather icon" class="emoji" id="icon" />
+            </div>
           </div>
-          <div class="col">
-            <img src="" alt="weather icon" class="emoji" id="icon" />
-          </div>
-        </div>
-      </main>
+        </main>
+      </div>
+      <p class="info">
+        <a href="https://github.com/darksteel101/weather-app"
+          >Open-source code </a
+        >by Rebecca Leep
+      </p>
+      <script src="src/app.js"></script>
     </div>
-    <p class="info"><a href="https://github.com/darksteel101/weather-app">Open-source code </a>by Rebecca Leep</p>
-    <script src="src/app.js"></script>
-  </div>
   </body>
 </html>
