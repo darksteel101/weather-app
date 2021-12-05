@@ -30,29 +30,6 @@ h3 {
   margin: 5px 0;
 }
 
-button {
-  color: #ffffff;
-  display: inline;
-  margin: 0 auto;
-  border-radius: 4px;
-  padding: 10px 20px;
-  transition: all 200ms ease-in-out;
-}
-
-button:hover {
-  cursor: pointer;
-}
-
-.search-button {
-  background-color: #1368f0;
-  border: solid 1px #1368f0;
-}
-
-#current-button {
-  background-color: #209420;
-  border: solid 1px #209420;
-}
-
 .search-bar {
   padding: 10px 50px;
   border: solid 1px #999999;
