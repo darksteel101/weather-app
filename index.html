@@ -15,6 +15,7 @@
     <link href="src/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <div class="wrapper">
     <div class="container">
       <form class="search-form" id="search-form">
         <input
@@ -29,7 +30,7 @@
         <button id="current-button">Current</button>
       </form>
 
-      <main class="container">
+      <main>
         <div class="row">
           <div class="col">
             <h1 id="city"></h1>
@@ -45,12 +46,13 @@
                   <a href="#" id="fahrenheit-link">°F</a></h2>
           </div>
           <div class="col">
-            <!--<span class="emoji">&#x2601;</span>-->
+            <span class="emoji">&#x2601;</span>
           </div>
         </div>
       </main>
     </div>
-    <p>Coded by <a href="https://github.com/darksteel101/weather-app">Rebecca Leep</a></p>
+    <p class="info"><a href="https://github.com/darksteel101/weather-app">Open-source code </a>by Rebecca Leep</p>
     <script src="src/app.js"></script>
+  </div>
   </body>
 </html>

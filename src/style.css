@@ -1,17 +1,33 @@
+.wrapper {
+  margin: 20px auto;
+  padding: 30px;
+  max-width: 800px;
+}
+
+.container {
+  margin: 20px auto;
+  padding: 30px;
+  max-width: 800px;
+  border: solid 1px #999999;
+  border-radius: 6px;
+}
+
 h1 {
   color: #1368f0;
   font-size: 34px;
-  margin: 0 auto;
+  margin: 15px auto;
 }
 
 h2 {
   font-weight: normal;
   font-size: 28px;
+  margin: 15px auto;
 }
 
 h3 {
   font-weight: normal;
   font-size: 20px;
+  margin: 5px 0;
 }
 
 button {
@@ -25,14 +41,6 @@ button {
 
 button:hover {
   cursor: pointer;
-}
-
-.container {
-  margin: 20px;
-  padding: 30px;
-  max-width: 1000px;
-  border: solid 1px #999999;
-  border-radius: 4px;
 }
 
 .search-button {
