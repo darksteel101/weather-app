@@ -24,6 +24,7 @@ function formatDate(date) {
   return `${currentDay} ${currentHour}:${currentMinute}`;
 }
 
+function displayForecast() {
   let forecastElement = document.querySelector("#forecast");
 
   let days = ["Thu", "Fri", "Sat", "Sun"];
