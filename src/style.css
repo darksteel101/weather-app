@@ -30,6 +30,16 @@ h3 {
   margin: 5px 0;
 }
 
+.forecast {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 50px;
+}
+
+.temp-minimum {
+  opacity: 0.5;
+}
+
 .search-bar {
   padding: 10px 50px;
   border: solid 1px #999999;
@@ -39,6 +49,7 @@ h3 {
 .temperature {
   text-align: center;
 }
+
 #description {
   text-transform: capitalize;
 }
